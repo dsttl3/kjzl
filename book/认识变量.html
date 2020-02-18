@@ -1,0 +1,361 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>3、认识变量 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="认识输入输出.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    欢迎页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="第一个快捷指令.html">
+            
+                <a href="第一个快捷指令.html">
+            
+                    
+                    1、第一个快捷指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="认识输入输出.html">
+            
+                <a href="认识输入输出.html">
+            
+                    
+                    2、认识输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="认识变量.html">
+            
+                <a href="认识变量.html">
+            
+                    
+                    3、认识变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" >
+            
+                <span>
+            
+                    
+                    常用操作介绍
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="目录.html">
+            
+                <a href="目录.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">进阶</li>
+        
+        
+    
+
+    
+        
+        <li class="header">高级</li>
+        
+        
+    
+
+    
+        
+        <li class="header">问题</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="明明请求到数据，为啥用词典获取时却不显示数据呢.html">
+            
+                <a href="明明请求到数据，为啥用词典获取时却不显示数据呢.html">
+            
+                    
+                    明明请求到数据，为啥用词典获取时却不显示数据呢
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >3、认识变量</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x53D8;&#x91CF;">&#x53D8;&#x91CF;</h1>
+<blockquote>
+<p>&#x53D8;&#x91CF;&#x662F;&#x7528;&#x4E8E;&#x6807;&#x8BB0;&#x548C;&#x50A8;&#x5B58;&#x5185;&#x5BB9;&#xFF08;&#x5982;&#x6587;&#x672C;&#x3001;&#x56FE;&#x50CF;&#x3001;&#x7F51;&#x9875;&#x6216;&#x6570;&#x636E;&#x8BCD;&#x5178;&#xFF09;&#x7684;&#x5BB9;&#x5668;&#x3002;<br>&#x201C;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x201D;&#x53EF;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x53D8;&#x91CF;&#xFF0C;&#x6216;&#x8BA9;&#x60A8;&#x624B;&#x52A8;&#x521B;&#x5EFA;&#x53D8;&#x91CF;&#x3002;  </p>
+</blockquote>
+<h2 id="&#x9B54;&#x6CD5;&#x53D8;&#x91CF;">&#x9B54;&#x6CD5;&#x53D8;&#x91CF;</h2>
+<p>&#x6BCF;&#x4E2A;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x4E2D;&#x6BCF;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x8F93;&#x51FA;&#x90FD;&#x53EF;&#x81EA;&#x52A8;&#x7528;&#x4F5C;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x3002;&#x4E0E;&#x624B;&#x52A8;&#x53D8;&#x91CF;&#x4E0D;&#x540C;&#xFF0C;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x4E0D;&#x9700;&#x8981;&#x60A8;&#x5B58;&#x50A8;&#x64CD;&#x4F5C;&#x7684;&#x8F93;&#x51FA;&#x4F9B;&#x4EE5;&#x540E;&#x4F7F;&#x7528;&#xFF0C;&#x53EA;&#x9700;&#x8F7B;&#x70B9;&#x201C;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x201D;&#x6309;&#x94AE;<img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/e9dc2b3b7ecccd68d266429fd76eaf58.png" alt="" height="15" width="16" originalimagename="GlobalArt/IL_MagicWand.png">&#xFF0C;&#x7136;&#x540E;&#x9009;&#x62E9;&#x4EFB;&#x4E00;&#x64CD;&#x4F5C;&#x7684;&#x8F93;&#x51FA;&#x4EE5;&#x5C06;&#x5176;&#x7528;&#x4F5C;&#x53D8;&#x91CF;&#x3002;  </p>
+<p><img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/27a4c82d068e173acd5c6c72ed91c0d9.png" alt="&#x201C;&#x5236;&#x4F5C;&#x524D; 25 &#x9996;&#x64AD;&#x653E;&#x5217;&#x8868;&#x201D;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x5C4F;&#x5E55;&#xFF0C;&#x5C4F;&#x5E55;&#x952E;&#x76D8;&#x4E0A;&#x65B9;&#x663E;&#x793A;&#x201C;&#x53D8;&#x91CF;&#x201D;&#x548C;&#x201C;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x201D;&#x6309;&#x94AE;&#x3002;" height="492" width="435">  </p>
+<p>&#x4F7F;&#x7528;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x53EF;&#x8BA9;&#x60A8;&#x5207;&#x6362;&#x5230;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x7279;&#x6B8A;&#x89C6;&#x56FE;&#x3002;&#x5728;&#x6B64;&#x89C6;&#x56FE;&#x4E2D;&#xFF0C;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x4E2D;&#x6240;&#x6709;&#x64CD;&#x4F5C;&#x7684;&#x8F93;&#x51FA;&#x90FD;&#x663E;&#x793A;&#x4E3A;&#x53EF;&#x9009;&#x62E9;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x53EF;&#x5C06;&#x524D;&#x9762;&#x64CD;&#x4F5C;&#x7684;&#x8F93;&#x51FA;&#x4F5C;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x8F93;&#x5165;&#x3002;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x7684;&#x5916;&#x89C2;&#x4E5F;&#x662F;&#x6709;&#x7528;&#x7684;&#xFF0C;&#x4E0A;&#x9762;&#x663E;&#x793A;&#x751F;&#x6210;&#x4E86;&#x6B64;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x7684;&#x64CD;&#x4F5C;&#x56FE;&#x6807;&#x3002;  </p>
+<p><img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/d545520934f507c644db422672725f03.png" alt="&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x53EF;&#x9009;&#x62E9;&#x7684;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;" height="494" width="327" originalimagename="Art/S0154_AdvMagicVariables.png">  </p>
+<p>&#x4F46;&#x662F;&#xFF0C;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x771F;&#x6B63;&#x7684;&#x795E;&#x5947;&#x4E4B;&#x5904;&#x5728;&#x4E8E;&#x60A8;&#x53EF;&#x4EE5;&#x66F4;&#x6539;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF0C;&#x53EA;&#x9700;&#x8F7B;&#x70B9;&#x4E00;&#x4E2A;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x5373;&#x53EF;&#x66F4;&#x6539;&#x5176;&#x683C;&#x5F0F;&#xFF0C;&#x4EE5;&#x53CA;&#x6307;&#x5B9A;&#x8981;&#x4F7F;&#x7528;&#x5B83;&#x7684;&#x54EA;&#x4E2A;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#x3002;&#x6709;&#x5173;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x53C2;&#x9605;&#x5728;&#x201C;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x201D;&#x4E2D;&#x8C03;&#x6574;&#x53D8;&#x91CF;&#x3002;  </p>
+<p><img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/986f30cca4b4db403899b03e85e0d97d.png" alt="&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x53EF;&#x9009;&#x62E9;&#x7684;&#x9B54;&#x6CD5;&#x53D8;&#x91CF;&#x3002;" height="494" width="367" originalimagename="Art/S0153_AdvMagicVariables.png">  </p>
+<h2 id="&#x624B;&#x52A8;&#x53D8;&#x91CF;">&#x624B;&#x52A8;&#x53D8;&#x91CF;</h2>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x201C;&#x8BBE;&#x5B9A;&#x53D8;&#x91CF;&#x201D;&#x64CD;&#x4F5C;&#x6216;&#x201C;&#x6DFB;&#x52A0;&#x5230;&#x53D8;&#x91CF;&#x201D;&#x64CD;&#x4F5C;&#x5C06;&#x624B;&#x52A8;&#x53D8;&#x91CF;&#x6DFB;&#x52A0;&#x5230;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x3002;  </p>
+<ul>
+<li>&#x8BBE;&#x5B9A;&#x53D8;&#x91CF;<br>&#x201C;&#x8BBE;&#x5B9A;&#x53D8;&#x91CF;&#x201D;&#x5141;&#x8BB8;&#x60A8;&#x9996;&#x6B21;&#x8BBE;&#x5B9A;&#x4E00;&#x4E2A;&#x65B0;&#x53D8;&#x91CF;&#xFF0C;&#x6216;&#x8986;&#x76D6;&#x4E4B;&#x524D;&#x50A8;&#x5B58;&#x8FC7;&#x7684;&#x53D8;&#x91CF;&#x3002;  </li>
+</ul>
+<p><img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/f2b2f4e049dfa2213acac40f5862f806.png" alt="&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x7684;&#x201C;&#x8BBE;&#x5B9A;&#x53D8;&#x91CF;&#x201D;&#x64CD;&#x4F5C;&#x3002;" height="492" width="245" originalimagename="Art/S0155_AdvSetVariable.png"></p>
+<ul>
+<li>&#x6DFB;&#x52A0;&#x5230;&#x53D8;&#x91CF;<br>&#x201C;&#x6DFB;&#x52A0;&#x5230;&#x53D8;&#x91CF;&#x201D;&#x5141;&#x8BB8;&#x60A8;&#x5C06;&#x591A;&#x4E2A;&#x5185;&#x5BB9;&#x6DFB;&#x52A0;&#x5230;&#x540C;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#xFF0C;&#x65B9;&#x6CD5;&#x662F;&#x6BCF;&#x6B21;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x8FD0;&#x884C;&#x65F6;&#x5C06;&#x5185;&#x5BB9;&#x8FFD;&#x52A0;&#x5230;&#x53D8;&#x91CF;&#x4E2D;&#xFF0C;&#x4ECE;&#x800C;&#x5C06;&#x6570;&#x636E;&#x50A8;&#x5B58;&#x4E3A;&#x6709;&#x5E8F;&#x5217;&#x8868;&#x3002;  </li>
+</ul>
+<p><img src="https://help.apple.com/assets/5D66C362680CE25E7861EFB5/5D66C38B680CE25E7861EFC5/zh_CN/4c843fafcd91b0d761b438360923221a.png" alt="&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x7684;&#x201C;&#x8BBE;&#x5B9A;&#x53D8;&#x91CF;&#x201D;&#x548C;&#x201C;&#x6DFB;&#x52A0;&#x5230;&#x53D8;&#x91CF;&#x201D;&#x64CD;&#x4F5C;&#x3002;" height="492" width="245" originalimagename="Art/S0156_AdvAddToVariable.png">  </p>
+<p>&#x6709;&#x5173;&#x5C06;&#x53D8;&#x91CF;&#x6DFB;&#x52A0;&#x5230;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x4E2D;&#x7684;&#x9010;&#x6B65;&#x64CD;&#x4F5C;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x53C2;&#x9605;&#x5728;<a href="https://support.apple.com/zh-cn/guide/shortcuts/apdd02c2780c/3.2/ios/13.2" target="_blank">&#x201C;&#x5FEB;&#x6377;&#x6307;&#x4EE4;&#x201D;&#x4E2D;&#x4F7F;&#x7528;&#x53D8;&#x91CF;</a>&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="认识输入输出.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 2、认识输入输出">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3、认识变量","level":"2.3","depth":1,"next":{"title":"常用操作介绍","level":"2.4","depth":1,"ref":"","articles":[{"title":"目录","level":"2.4.1","depth":2,"path":"book/目录.md","ref":"book/目录.md","articles":[]}]},"previous":{"title":"2、认识输入输出","level":"2.2","depth":1,"path":"book/认识输入输出.md","ref":"book/认识输入输出.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"book/认识变量.md","mtime":"2020-02-13T19:31:58.031Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-13T19:40:19.305Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
